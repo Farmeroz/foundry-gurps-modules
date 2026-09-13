@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "owner": "Farmeroz",
+  "modules": [
+    {
+      "id": "gga-ammo-resource-assistant",
+      "title": "GGA Ammunition & Resource Assistant",
+      "version": "1.0.2",
+      "repository": "https://github.com/Farmeroz/gga-ammo-resource-assistant",
+      "manifest": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/download/v1.0.2/gga-ammo-resource-assistant-v1.0.2.zip",
+      "minimumFoundry": "13",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": ["lib-wrapper"]
+    },
+    {
+      "id": "gga-casting-assistant",
+      "title": "GGA Casting Assistant",
+      "version": "0.3.0",
+      "repository": "https://github.com/Farmeroz/gga-casting-assistant",
+      "manifest": "https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-casting-assistant/releases/download/v0.3.0/gga-casting-assistant-v0.3.0.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": ["lib-wrapper"]
+    },
+    {
+      "id": "gga-expanded-criticals",
+      "title": "GGA Expanded Criticals",
+      "version": "0.1.0",
+      "repository": "https://github.com/Farmeroz/gga-expanded-criticals",
+      "manifest": "https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-expanded-criticals/releases/download/v0.1.0/gga-expanded-criticals-v0.1.0.zip",
+      "minimumFoundry": "14",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    },
+    {
+      "id": "gga-gm-control-sheet",
+      "title": "GGA GM Control Sheet",
+      "version": "0.2.2",
+      "repository": "https://github.com/Farmeroz/gga-gm-control-sheet",
+      "manifest": "https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-gm-control-sheet/releases/download/v0.2.2/gga-gm-control-sheet-v0.2.2.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": ["lib-wrapper"]
+    },
+    {
+      "id": "gga-gurps-cones",
+      "title": "GGA: GURPS Cone Regions",
+      "version": "0.1.0",
+      "repository": "https://github.com/Farmeroz/gga-gurps-cones",
+      "manifest": "https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-gurps-cones/releases/download/v0.1.0/gga-gurps-cones-v0.1.0.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    },
+    {
+      "id": "gga-roll-clarity",
+      "title": "GGA Roll Clarity",
+      "version": "0.1.1",
+      "repository": "https://github.com/Farmeroz/gga-roll-clarity",
+      "manifest": "https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gga-roll-clarity/releases/download/v0.1.1/gga-roll-clarity-v0.1.1.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    },
+    {
+      "id": "gurps-action-chases",
+      "title": "GURPS Action Chases",
+      "version": "0.2.5",
+      "repository": "https://github.com/Farmeroz/gurps-action-chases",
+      "manifest": "https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gurps-action-chases/releases/download/v0.2.5/gurps-action-chases-v0.2.5.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14.367",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    },
+    {
+      "id": "gurps-layered-armour",
+      "title": "GURPS Layered Armour",
+      "version": "0.1.2",
+      "repository": "https://github.com/Farmeroz/gurps-layered-armour",
+      "manifest": "https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gurps-layered-armour/releases/download/v0.1.2/gurps-layered-armour-v0.1.2.zip",
+      "minimumFoundry": "14",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    },
+    {
+      "id": "gurps-manual-add",
+      "title": "GURPS Manual Damage",
+      "version": "0.1.1",
+      "repository": "https://github.com/Farmeroz/gurps-manual-add",
+      "manifest": "https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/gurps-manual-add/releases/download/v0.1.1/gurps-manual-add-v0.1.1.zip",
+      "minimumFoundry": "14",
+      "minimumGGA": "0.18.0",
+      "requires": []
+    }
+  ]
+}

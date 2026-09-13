@@ -1,0 +1,28 @@
+# Stable Foundry VTT manifest URLs
+
+GGA Ammunition & Resource Assistant
+https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json
+
+GGA Casting Assistant
+https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json
+
+GGA Expanded Criticals
+https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json
+
+GGA GM Control Sheet
+https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json
+
+GGA: GURPS Cone Regions
+https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json
+
+GGA Roll Clarity
+https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json
+
+GURPS Action Chases
+https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json
+
+GURPS Layered Armour
+https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json
+
+GURPS Manual Damage
+https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json
