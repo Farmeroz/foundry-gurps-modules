@@ -29,3 +29,6 @@ https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module
 
 GURPS Manual Damage
 https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json
+
+Simple Pings
+https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json
