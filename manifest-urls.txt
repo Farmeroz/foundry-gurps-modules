@@ -18,6 +18,9 @@ https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json
 GGA Roll Clarity
 https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json
 
+GGA Vitality Reserve
+https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json
+
 GURPS Action Chases
 https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json
 
