@@ -25,6 +25,7 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 | GURPS Action Chases | 0.2.7 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.2.3 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
 | GURPS Manual Damage | 0.2.1 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| Simple Pings | 0.1.0 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same catalogue in a machine-readable form.
 
@@ -32,6 +33,6 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 Use the **Issues** tab in the relevant module repository to report a problem or request an enhancement.  Include the Foundry, GGA, and module versions and any console error messages.
 
-Each module is released under the MIT licence in its own repository.
+Simple Pings is released under LGPL v3, preserving the original Pings licence and attribution.  The other modules are released under the MIT licence in their own repositories.
 
 GURPS is a trademark of Steve Jackson Games.  These unofficial modules are not affiliated with or endorsed by Steve Jackson Games, Foundry Gaming LLC, or the GURPS Game Aid maintainers.

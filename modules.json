@@ -127,6 +127,19 @@
       "minimumFoundry": "14",
       "minimumGGA": "0.18.0",
       "requires": []
+    },
+    {
+      "id": "simple-pings",
+      "title": "Simple Pings",
+      "version": "0.1.0",
+      "repository": "https://github.com/Farmeroz/simple-pings",
+      "manifest": "https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json",
+      "download": "https://github.com/Farmeroz/simple-pings/releases/download/v0.1.0/simple-pings-v0.1.0.zip",
+      "minimumFoundry": "14",
+      "verifiedFoundry": "14",
+      "requires": [
+        "lib-wrapper"
+      ]
     }
   ]
 }
