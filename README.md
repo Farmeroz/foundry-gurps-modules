@@ -25,7 +25,7 @@ Latest stable releases checked on **7 October 2026**.  Versions, compatibility, 
 | GGA Roll Clarity | 0.2.0 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-roll-clarity) · [Releases](https://github.com/Farmeroz/gga-roll-clarity/releases) |
 | GGA Vitality Reserve | 0.1.3 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
-| GURPS Layered Armour | 0.3.1 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
+| GURPS Layered Armour | 0.4.0 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
 | GURPS Manual Damage | 0.3.1 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
@@ -34,7 +34,7 @@ Latest stable releases checked on **7 October 2026**.  Versions, compatibility, 
 ## Recent catalogue updates
 
 - **Ammunition & Resource Assistant 1.2.0:** optional GURPS 4e malfunctions, outcome-aware ammunition spending, persistent weapon condition, and clearing/repair records, alongside guided bow and throwing actions.
-- **Layered Armour 0.3.1:** layered GURPS 4e protection, including Ablative/Semi-Ablative armour condition.
+- **Layered Armour 0.4.0:** layered GURPS 4e protection plus optional Basic Set and Shields Up! shield damage, visible condition trackers, repairs, undo, and residual damage review.
 - **Manual Damage 0.3.1:** damage entry and rolls, fragmentation resolution, and review through GGA's native Apply Damage Dialog.
 
 ## Legacy module
