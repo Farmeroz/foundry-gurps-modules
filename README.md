@@ -17,7 +17,7 @@ Latest stable releases checked on **7 October 2026**.  Versions, compatibility, 
 
 | Module | Version | Minimum Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | --- | --- | --- |
-| GGA Ammunition & Resource Assistant | 1.1.2 | 13 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-ammo-resource-assistant) · [Releases](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases) |
+| GGA Ammunition & Resource Assistant | 1.2.0 | 13 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-ammo-resource-assistant) · [Releases](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases) |
 | GGA Casting Assistant | 0.7.0 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-casting-assistant) · [Releases](https://github.com/Farmeroz/gga-casting-assistant/releases) |
 | GGA Expanded Criticals | 0.1.2 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-expanded-criticals) · [Releases](https://github.com/Farmeroz/gga-expanded-criticals/releases) |
 | GGA GM Control Sheet | 0.5.0 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gm-control-sheet) · [Releases](https://github.com/Farmeroz/gga-gm-control-sheet/releases) · [Guide](https://github.com/Farmeroz/gga-gm-control-sheet/blob/main/GGA-GM-Control-Sheet-User-Guide.pdf) |
@@ -33,7 +33,7 @@ Latest stable releases checked on **7 October 2026**.  Versions, compatibility, 
 
 ## Recent catalogue updates
 
-- **Ammunition & Resource Assistant 1.1.2:** guided bow and throwing actions, automatic action sequences, and advisory prerequisite checks recorded in chat.
+- **Ammunition & Resource Assistant 1.2.0:** optional GURPS 4e malfunctions, outcome-aware ammunition spending, persistent weapon condition, and clearing/repair records, alongside guided bow and throwing actions.
 - **Layered Armour 0.3.1:** layered GURPS 4e protection, including Ablative/Semi-Ablative armour condition.
 - **Manual Damage 0.3.1:** damage entry and rolls, fragmentation resolution, and review through GGA's native Apply Damage Dialog.
 

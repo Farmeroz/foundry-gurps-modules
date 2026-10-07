@@ -5,17 +5,17 @@
     {
       "id": "gga-ammo-resource-assistant",
       "title": "GGA Ammunition & Resource Assistant",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "repository": "https://github.com/Farmeroz/gga-ammo-resource-assistant",
       "manifest": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/download/v1.1.2/gga-ammo-resource-assistant-v1.1.2.zip",
+      "download": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/download/v1.2.0/gga-ammo-resource-assistant-v1.2.0.zip",
       "minimumFoundry": "13",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
       "requires": [
         "lib-wrapper"
       ],
-      "description": "Action-first ammunition, bow preparation, throwing, reload, and resource workflows for GURPS Game Aid, with guided cinematic options and saved hotbar actions."
+      "description": "Ammunition, optional GURPS 4e malfunctions, bow preparation, throwing, reload, and resource workflows for GURPS Game Aid, with saved hotbar actions."
     },
     {
       "id": "gga-casting-assistant",
