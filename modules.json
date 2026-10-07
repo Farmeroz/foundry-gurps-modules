@@ -5,16 +5,17 @@
     {
       "id": "gga-ammo-resource-assistant",
       "title": "GGA Ammunition & Resource Assistant",
-      "version": "1.0.4",
+      "version": "1.1.2",
       "repository": "https://github.com/Farmeroz/gga-ammo-resource-assistant",
       "manifest": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/download/v1.0.4/gga-ammo-resource-assistant-v1.0.4.zip",
+      "download": "https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/download/v1.1.2/gga-ammo-resource-assistant-v1.1.2.zip",
       "minimumFoundry": "13",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "Action-first ammunition, bow preparation, throwing, reload, and resource workflows for GURPS Game Aid, with guided cinematic options and saved hotbar actions."
     },
     {
       "id": "gga-casting-assistant",
@@ -28,7 +29,8 @@
       "minimumGGA": "0.18.0",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "Spell and power casting, a searchable Grimoire, saved RPM builds, resources, and healing for GURPS 4e Game Aid."
     },
     {
       "id": "gga-expanded-criticals",
@@ -39,7 +41,8 @@
       "download": "https://github.com/Farmeroz/gga-expanded-criticals/releases/download/v0.1.2/gga-expanded-criticals-v0.1.2.zip",
       "minimumFoundry": "14",
       "minimumGGA": "0.18.0",
-      "requires": []
+      "requires": [],
+      "description": "Configurable expanded critical successes for GURPS Fourth Edition Game Aid, using GGA's normal result and chat presentation."
     },
     {
       "id": "gga-gm-control-sheet",
@@ -53,7 +56,8 @@
       "minimumGGA": "0.18.0",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "A GM overview for GURPS 4e Game Aid: PC and NPC rosters, private batch rolls, player roll requests, and group modifiers."
     },
     {
       "id": "gga-gurps-cones",
@@ -65,7 +69,8 @@
       "minimumFoundry": "14",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
-      "requires": []
+      "requires": [],
+      "description": "Creates Foundry VTT Region cones from GURPS maximum range and maximum width."
     },
     {
       "id": "gga-roll-clarity",
@@ -77,7 +82,8 @@
       "minimumFoundry": "14",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
-      "requires": []
+      "requires": [],
+      "description": "Roll visibility labels and blind-roll confirmations for GURPS 4e Game Aid."
     },
     {
       "id": "gga-vitality-reserve",
@@ -90,7 +96,8 @@
       "minimumGGA": "0.18.23",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "Vitality Reserve for GURPS 4e: tracker setup, VR-first injury, configurable healing, and GGA damage-effect integration."
     },
     {
       "id": "gurps-action-chases",
@@ -102,31 +109,34 @@
       "minimumFoundry": "14",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
-      "requires": []
+      "requires": [],
+      "description": "A shared, persistent GURPS 4e Action chase tracker with ad hoc people and vehicles, player controls, and guided resolution."
     },
     {
       "id": "gurps-layered-armour",
       "title": "GURPS Layered Armour",
-      "version": "0.2.3",
+      "version": "0.3.1",
       "repository": "https://github.com/Farmeroz/gurps-layered-armour",
       "manifest": "https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gurps-layered-armour/releases/download/v0.2.3/gurps-layered-armour-v0.2.3.zip",
+      "download": "https://github.com/Farmeroz/gurps-layered-armour/releases/download/v0.3.1/gurps-layered-armour-v0.3.1.zip",
       "minimumFoundry": "14",
       "minimumGGA": "0.18.0",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "Layered GURPS 4e armour for GGA ADD, including per-layer Hardened, flexible armour, Ablative/Semi-Ablative condition, chinks, and large-area protection."
     },
     {
       "id": "gurps-manual-add",
       "title": "GURPS Manual Damage",
-      "version": "0.2.1",
+      "version": "0.3.1",
       "repository": "https://github.com/Farmeroz/gurps-manual-add",
       "manifest": "https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gurps-manual-add/releases/download/v0.2.1/gurps-manual-add-v0.2.1.zip",
+      "download": "https://github.com/Farmeroz/gurps-manual-add/releases/download/v0.3.1/gurps-manual-add-v0.3.1.zip",
       "minimumFoundry": "14",
       "minimumGGA": "0.18.0",
-      "requires": []
+      "requires": [],
+      "description": "Enter or roll GURPS 4e damage, resolve B415 fragmentation, then review and apply each result with GGA’s native ADD."
     },
     {
       "id": "simple-pings",
@@ -139,7 +149,9 @@
       "verifiedFoundry": "14",
       "requires": [
         "lib-wrapper"
-      ]
+      ],
+      "description": "Pings for Foundry v14: configurable mouse and keyboard controls, player names, custom images, animation, and screen-moving pings. Based on Azzurite's Pings, without Settings Extender."
     }
-  ]
+  ],
+  "lastChecked": "2026-10-07"
 }
