@@ -1,6 +1,6 @@
 # Farmeroz's Foundry GURPS Modules
 
-An unofficial collection of modules by Phil Brown (`Farmeroz`) for Foundry Virtual Tabletop and GURPS Game Aid (GGA).
+An unofficial collection of modules by Phil Brown (`Farmeroz`) for Foundry Virtual Tabletop and GURPS 4e Game Aid (GGA).
 
 ## Install a module
 
@@ -13,9 +13,11 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 ## Module catalogue
 
+Latest stable releases checked on **7 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
+
 | Module | Version | Minimum Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | --- | --- | --- |
-| GGA Ammunition & Resource Assistant | 1.0.4 | 13 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-ammo-resource-assistant) · [Releases](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases) |
+| GGA Ammunition & Resource Assistant | 1.1.2 | 13 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-ammo-resource-assistant) · [Releases](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases) |
 | GGA Casting Assistant | 0.7.0 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-casting-assistant) · [Releases](https://github.com/Farmeroz/gga-casting-assistant/releases) |
 | GGA Expanded Criticals | 0.1.2 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-expanded-criticals) · [Releases](https://github.com/Farmeroz/gga-expanded-criticals/releases) |
 | GGA GM Control Sheet | 0.5.0 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gm-control-sheet) · [Releases](https://github.com/Farmeroz/gga-gm-control-sheet/releases) · [Guide](https://github.com/Farmeroz/gga-gm-control-sheet/blob/main/GGA-GM-Control-Sheet-User-Guide.pdf) |
@@ -23,11 +25,21 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 | GGA Roll Clarity | 0.2.0 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-roll-clarity) · [Releases](https://github.com/Farmeroz/gga-roll-clarity/releases) |
 | GGA Vitality Reserve | 0.1.3 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
-| GURPS Layered Armour | 0.2.3 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.2.1 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Layered Armour | 0.3.1 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
+| GURPS Manual Damage | 0.3.1 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
-`modules.json` contains the same catalogue in a machine-readable form.
+`modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
+
+## Recent catalogue updates
+
+- **Ammunition & Resource Assistant 1.1.2:** guided bow and throwing actions, automatic action sequences, and advisory prerequisite checks recorded in chat.
+- **Layered Armour 0.3.1:** layered GURPS 4e protection, including Ablative/Semi-Ablative armour condition.
+- **Manual Damage 0.3.1:** damage entry and rolls, fragmentation resolution, and review through GGA's native Apply Damage Dialog.
+
+## Legacy module
+
+[**UI UI no UI 1.0.0**](https://github.com/Farmeroz/ui-ui-no-ui/releases/tag/ui-ui-no-ui) is Farmeroz's published copy of Boifubá's UI visibility module.  Its release notes describe toggling UI elements in GGA with **Ctrl+H**.  The tagged manifest declares Foundry 12 minimum and Foundry 13 verified; it still contains placeholder `my-user` manifest and download URLs.  It is therefore listed here for completeness, rather than in the stable installation list.  Foundry 14 compatibility has not been established by that manifest.
 
 ## Support
 
