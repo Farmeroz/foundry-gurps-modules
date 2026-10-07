@@ -23,7 +23,7 @@ Latest stable releases checked on **8 October 2026**.  Versions, compatibility, 
 | GGA GM Control Sheet | 0.5.0 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gm-control-sheet) · [Releases](https://github.com/Farmeroz/gga-gm-control-sheet/releases) · [Guide](https://github.com/Farmeroz/gga-gm-control-sheet/blob/main/GGA-GM-Control-Sheet-User-Guide.pdf) |
 | GGA: GURPS Cone Regions | 0.1.2 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gurps-cones) · [Releases](https://github.com/Farmeroz/gga-gurps-cones/releases) |
 | GGA Roll Clarity | 0.2.0 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-roll-clarity) · [Releases](https://github.com/Farmeroz/gga-roll-clarity/releases) |
-| GGA Vitality Reserve | 0.1.4 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
+| GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
 | GURPS Manual Damage | 0.3.2 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
@@ -32,6 +32,8 @@ Latest stable releases checked on **8 October 2026**.  Versions, compatibility, 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Vitality Reserve 0.1.5:** packages files inside `gga-vitality-reserve/` to prevent versioned folder names on manual extraction.
 
 - **Manual Damage 0.3.2:** fixes the attack-options expander, supports mouse and keyboard activation, and preserves its state after area changes.
 - **Foundry v14 verification:** Manual Damage 0.3.2, Expanded Criticals 0.1.3, Vitality Reserve 0.1.4, and Layered Armour 0.4.1 now explicitly declare verified v14 compatibility.
