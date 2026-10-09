@@ -26,12 +26,14 @@ Latest stable releases checked on **8 October 2026**.  Versions, compatibility, 
 | GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.3.2 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Manual Damage | 0.3.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Manual Damage 0.3.3 (9 October 2026):** enables large-area and explosion selection for actors without hit locations, preserves attack mode through rerenders, and retains explicit reviewed DR.
 
 - **Vitality Reserve 0.1.5:** packages files inside `gga-vitality-reserve/` to prevent versioned folder names on manual extraction.
 
