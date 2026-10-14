@@ -13,7 +13,7 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 ## Module catalogue
 
-Full catalogue checked on **8 October 2026**; Manual Damage and Cone Regions updated and checked on **14 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
+Full catalogue checked on **8 October 2026**; Cone Regions updated and checked on **14 October 2026**, and Manual Damage on **15 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
 
 | Module | Version | Minimum Foundry | Verified Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | ---: | --- | --- | --- |
@@ -26,12 +26,14 @@ Full catalogue checked on **8 October 2026**; Manual Damage and Cone Regions upd
 | GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.5.0 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Manual Damage | 0.5.1 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Manual Damage 0.5.1 (15 October 2026):** fixes the “Cannot set property template” error when opening Area Attack from ADD, selected tokens, saved area profiles or Cones. Update Manual Damage and reload connected clients. Existing macros remain compatible; Cones needs no update.
 
 - **Manual Damage 0.5.0 and Cone Regions 0.3.0 (14 October 2026):** save reusable damage and shape macros from secondary profile controls. Damage profiles remember attack inputs and roll choices; shape profiles recreate cones/circles with saved physical dimensions on the current scene. Find saved macros in Macros and drag them to the hotbar. Combined workflow: **shape macro → place → Send area to Manual Damage → area-damage macro → prepare → Review in ADD**. Profiles do not save old targets, distances, results or defender armour overrides, and never apply injury automatically. ADD saves fixed basic damage; save from the roller to preserve dice. [Damage guide](https://github.com/Farmeroz/gurps-manual-add#reusable-damage-profiles) · [Shape guide](https://github.com/Farmeroz/gga-gurps-cones#save-and-reuse-shapes). If upgrading from an rc build, reinstall using the stable manifest links in the catalogue and reload connected clients.
 
