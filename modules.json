@@ -63,15 +63,16 @@
     {
       "id": "gga-gurps-cones",
       "title": "GGA: GURPS Cone Regions",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "repository": "https://github.com/Farmeroz/gga-gurps-cones",
       "manifest": "https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gga-gurps-cones/releases/download/v0.1.2/gga-gurps-cones-v0.1.2.zip",
+      "download": "https://github.com/Farmeroz/gga-gurps-cones/releases/download/v0.2.0/gga-gurps-cones-v0.2.0.zip",
       "minimumFoundry": "14",
       "verifiedFoundry": "14.367",
       "minimumGGA": "0.18.0",
       "requires": [],
-      "description": "Creates Foundry VTT Region cones from GURPS maximum range and maximum width."
+      "description": "Creates GURPS 4e cones and circular AoE/blast Regions, then sends their candidate recipients to Manual Damage for review.",
+      "lastChecked": "2026-10-14"
     },
     {
       "id": "gga-roll-clarity",
@@ -132,15 +133,16 @@
     {
       "id": "gurps-manual-add",
       "title": "GURPS Manual Damage",
-      "version": "0.3.3",
+      "version": "0.4.0",
       "repository": "https://github.com/Farmeroz/gurps-manual-add",
       "manifest": "https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json",
-      "download": "https://github.com/Farmeroz/gurps-manual-add/releases/download/v0.3.3/gurps-manual-add-v0.3.3.zip",
+      "download": "https://github.com/Farmeroz/gurps-manual-add/releases/download/v0.4.0/gurps-manual-add-v0.4.0.zip",
       "minimumFoundry": "14",
       "minimumGGA": "0.18.0",
       "requires": [],
-      "description": "Enter or roll GURPS 4e damage, resolve B415 fragmentation, then review and apply each result with GGA’s native ADD.",
-      "verifiedFoundry": "14"
+      "description": "Enter or roll GURPS 4e damage, resolve uniform AoE, explosions and fragmentation, and review each recipient in GGA ADD; accepts cone and area Region recipients.",
+      "verifiedFoundry": "14",
+      "lastChecked": "2026-10-14"
     },
     {
       "id": "simple-pings",

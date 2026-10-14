@@ -13,7 +13,7 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 ## Module catalogue
 
-Latest stable releases checked on **8 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
+Full catalogue checked on **8 October 2026**; Manual Damage and Cone Regions updated and checked on **14 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
 
 | Module | Version | Minimum Foundry | Verified Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | ---: | --- | --- | --- |
@@ -21,17 +21,19 @@ Latest stable releases checked on **8 October 2026**.  Versions, compatibility, 
 | GGA Casting Assistant | 0.7.0 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-casting-assistant) · [Releases](https://github.com/Farmeroz/gga-casting-assistant/releases) |
 | GGA Expanded Criticals | 0.1.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-expanded-criticals) · [Releases](https://github.com/Farmeroz/gga-expanded-criticals/releases) |
 | GGA GM Control Sheet | 0.5.0 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gm-control-sheet) · [Releases](https://github.com/Farmeroz/gga-gm-control-sheet/releases) · [Guide](https://github.com/Farmeroz/gga-gm-control-sheet/blob/main/GGA-GM-Control-Sheet-User-Guide.pdf) |
-| GGA: GURPS Cone Regions | 0.1.2 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gurps-cones) · [Releases](https://github.com/Farmeroz/gga-gurps-cones/releases) |
+| GGA: GURPS Cone Regions | 0.2.0 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gurps-cones) · [Releases](https://github.com/Farmeroz/gga-gurps-cones/releases) |
 | GGA Roll Clarity | 0.2.0 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-roll-clarity/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-roll-clarity) · [Releases](https://github.com/Farmeroz/gga-roll-clarity/releases) |
 | GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.3.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Manual Damage | 0.4.0 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Manual Damage 0.4.0 and Cone Regions 0.2.0 (14 October 2026):** uniform AoE without falloff, explosion distance/radius review, circular area and blast Regions, and template-to-ADD recipient handoff. Use Region Controls → Create GURPS area / blast → Send area to Manual Damage, or `/add area` / `/add explosion` without a template. Each recipient still receives a separate ADD injury review. Extra controls appear only when relevant. Update both modules for the combined workflow.
 
 - **Manual Damage 0.3.3 (9 October 2026):** enables large-area and explosion selection for actors without hit locations, preserves attack mode through rerenders, and retains explicit reviewed DR.
 
