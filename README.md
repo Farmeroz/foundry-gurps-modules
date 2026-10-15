@@ -26,14 +26,14 @@ Full catalogue checked on **8 October 2026**; Cone Regions updated and checked o
 | GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.5.2 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Manual Damage | 0.5.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
 
-- **Manual Damage 0.5.2 (15 October 2026):** reads selected-origin coordinates explicitly so Area Attack can measure token centres exposed through coordinate getters, matching fragmentation. Manual distance overrides remain intact. Update Manual Damage and reload clients; no Cones update or macro recreation is needed.
+- **Manual Damage 0.5.3 (15 October 2026):** fixes blank explosion distances confirmed in live Foundry 14.367. Area Attack now uses fragmentation's token measurement routine and keeps template coordinates separate from elevation. Choose Distance origin, enter the first zero distance, or tick Direct hit to calculate unedited distances; use Reset distances to start again. This addresses the live failure that 0.5.2 did not fix. Update Manual Damage and reload clients; no Cones update or macro recreation is needed.
 
 - **Manual Damage 0.5.1 (15 October 2026):** fixes the “Cannot set property template” error when opening Area Attack from ADD, selected tokens, saved area profiles or Cones. Update Manual Damage and reload connected clients. Existing macros remain compatible; Cones needs no update.
 
