@@ -13,7 +13,7 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 ## Module catalogue
 
-Full catalogue checked on **8 October 2026**; Cone Regions updated and checked on **14 October 2026**, and Manual Damage on **15 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
+Full catalogue checked on **8 October 2026**; Cone Regions updated and checked on **14 October 2026**, and Manual Damage on **22 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
 
 | Module | Version | Minimum Foundry | Verified Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | ---: | --- | --- | --- |
@@ -26,12 +26,14 @@ Full catalogue checked on **8 October 2026**; Cone Regions updated and checked o
 | GGA Vitality Reserve | 0.1.5 | 14 | 14 | GGA 0.18.23+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-vitality-reserve/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-vitality-reserve) · [Releases](https://github.com/Farmeroz/gga-vitality-reserve/releases) · [Guide](https://github.com/Farmeroz/gga-vitality-reserve/blob/main/USER_GUIDE.md) |
 | GURPS Action Chases | 0.2.7 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-action-chases/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-action-chases) · [Releases](https://github.com/Farmeroz/gurps-action-chases/releases) · [Guide](https://github.com/Farmeroz/gurps-action-chases/blob/main/docs/User-Guide.pdf) |
 | GURPS Layered Armour | 0.4.1 | 14 | 14 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gurps-layered-armour/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-layered-armour) · [Releases](https://github.com/Farmeroz/gurps-layered-armour/releases) |
-| GURPS Manual Damage | 0.5.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
+| GURPS Manual Damage | 0.5.4 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gurps-manual-add/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gurps-manual-add) · [Releases](https://github.com/Farmeroz/gurps-manual-add/releases) |
 | Simple Pings | 0.1.0 | 14 | 14 | libWrapper; any game system | [Manifest](https://github.com/Farmeroz/simple-pings/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/simple-pings) · [Releases](https://github.com/Farmeroz/simple-pings/releases) |
 
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Manual Damage 0.5.4 (22 October 2026):** fixes the calculator button appearing beside Image Hover portraits. Only the actual token HUD receives the control. Update Manual Damage and reload clients; Image Hover needs no change. Damage rules are unchanged.
 
 - **Manual Damage 0.5.3 (15 October 2026):** fixes blank explosion distances confirmed in live Foundry 14.367. Area Attack now uses fragmentation's token measurement routine and keeps template coordinates separate from elevation. Choose Distance origin, enter the first zero distance, or tick Direct hit to calculate unedited distances; use Reset distances to start again. This addresses the live failure that 0.5.2 did not fix. Update Manual Damage and reload clients; no Cones update or macro recreation is needed.
 
