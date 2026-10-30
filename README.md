@@ -13,12 +13,12 @@ Foundry can use the same manifest URL for future updates.  The complete plain-te
 
 ## Module catalogue
 
-Full catalogue checked on **8 October 2026**; Cone Regions updated and checked on **14 October 2026**, and Manual Damage on **22 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
+Full catalogue checked on **8 October 2026**; Cone Regions updated and checked on **14 October 2026**, Manual Damage on **22 October 2026**, and Casting Assistant on **31 October 2026**.  Versions, compatibility, and dependencies below are taken from the release-tagged manifests; each listed release includes a manifest and module ZIP.  Prereleases are available from individual release pages and are not listed as stable versions.
 
 | Module | Version | Minimum Foundry | Verified Foundry | Requirements | Manifest | Source and releases |
 | --- | ---: | ---: | ---: | --- | --- | --- |
 | GGA Ammunition & Resource Assistant | 1.2.0 | 13 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-ammo-resource-assistant) · [Releases](https://github.com/Farmeroz/gga-ammo-resource-assistant/releases) |
-| GGA Casting Assistant | 0.7.0 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-casting-assistant) · [Releases](https://github.com/Farmeroz/gga-casting-assistant/releases) |
+| GGA Casting Assistant | 0.7.1 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-casting-assistant/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-casting-assistant) · [Releases](https://github.com/Farmeroz/gga-casting-assistant/releases) |
 | GGA Expanded Criticals | 0.1.3 | 14 | 14 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-expanded-criticals/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-expanded-criticals) · [Releases](https://github.com/Farmeroz/gga-expanded-criticals/releases) |
 | GGA GM Control Sheet | 0.5.0 | 14 | 14.367 | GGA 0.18.0+, libWrapper | [Manifest](https://github.com/Farmeroz/gga-gm-control-sheet/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gm-control-sheet) · [Releases](https://github.com/Farmeroz/gga-gm-control-sheet/releases) · [Guide](https://github.com/Farmeroz/gga-gm-control-sheet/blob/main/GGA-GM-Control-Sheet-User-Guide.pdf) |
 | GGA: GURPS Cone Regions | 0.3.0 | 14 | 14.367 | GGA 0.18.0+ | [Manifest](https://github.com/Farmeroz/gga-gurps-cones/releases/latest/download/module.json) | [Repository](https://github.com/Farmeroz/gga-gurps-cones) · [Releases](https://github.com/Farmeroz/gga-gurps-cones/releases) |
@@ -32,6 +32,8 @@ Full catalogue checked on **8 October 2026**; Cone Regions updated and checked o
 `modules.json` contains the same stable catalogue, including module descriptions, in a machine-readable form.
 
 ## Recent catalogue updates
+
+- **Casting Assistant 0.7.1 (31 October 2026):** supports GGA 0.18.24 PDF labels and custom book codes, and safely recovers unique melee attack links after GGA 0.18.25 GCS reimports. Ambiguous attacks require selection in the profile. Existing manifest URLs remain valid. See the [GGA 0.18.x compatibility review](compatibility/GGA-0.18.24-0.18.26.md) for scope, validation, and checks for the other modules. GGA 1.0 migration remains deferred.
 
 - **Manual Damage 0.5.4 (22 October 2026):** fixes the calculator button appearing beside Image Hover portraits. Only the actual token HUD receives the control. Update Manual Damage and reload clients; Image Hover needs no change. Damage rules are unchanged.
 
